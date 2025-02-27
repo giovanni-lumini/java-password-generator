@@ -38,6 +38,7 @@ public class PasswordGenerator {
         System.out.println(SommaNumDataNascita);
 
         // password generata
-        System.out.println(nome + "-" + cognome + "-" + colorePreferito + "-" + SommaNumDataNascita);
+        String password = nome + "-" + cognome + "-" + colorePreferito + "-" + SommaNumDataNascita;
+        System.out.println(password);
     }
 }
